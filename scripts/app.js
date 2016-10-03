@@ -49,13 +49,16 @@ function WordsService() {
     {name: "bear"},
     {name: "ant"},
     {name: "emu"},
-    {name: "spider"}
+    {name: "spider"},
+    {name: "goat"},
+    {name: "frog"},
+    {name: "penguin"}
   ];
 
 
   service.say = function (itemIndex) {
 
-  	console.log (items[itemIndex].name);
+  	console.log (items.length);
     responsiveVoice.speak(items[itemIndex].name);
   };
 
