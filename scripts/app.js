@@ -52,7 +52,13 @@ function WordsService() {
     {name: "spider"},
     {name: "goat"},
     {name: "frog"},
-    {name: "penguin"}
+    {name: "penguin"},
+    {name: "wolf"},
+    {name: "walrus"},
+    {name: "chimpanzee"},
+    {name: "fennec"},
+    {name: "lynx"},
+    {name: "orangutan"}
   ];
 
 
